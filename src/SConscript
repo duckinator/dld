@@ -1,0 +1,13 @@
+# vim: syntax=python
+
+Import('env', 'arch', 'buildtype')
+
+sources = []
+
+dld = env.Clone()
+
+sources += [
+	'dld.c'
+]
+
+dld.Program('dld', sources)
