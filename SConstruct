@@ -22,8 +22,6 @@ env = Environment(
 	CC='gcc',
 	CCFLAGS=['-g', '-I', 'include'],
 	AS='nasm',
-	LINK='ld',
-	LINKFLAGS=['--library=c', '--library=crt0.o']
 )
 
 if buildtype == 'debug':
