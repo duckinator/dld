@@ -10,4 +10,4 @@ sources += [
 	'dld.c'
 ]
 
-dld.Program('dld', sources)
+dld.Program('../dld', sources)

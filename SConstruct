@@ -21,7 +21,7 @@ env = Environment(
 	SHLIBSUFFIX='.shl',
 	CC='gcc',
 	CCFLAGS=['-g', '-I', 'include'],
-	AS='nasm',
+	AS='nasm'
 )
 
 if buildtype == 'debug':
